@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bodoni+Moda:opsz@6..96&family=Cormorant+Garamond:wght@300;400&family=Elsie&family=Gotu&family=Gruppo&family=Italiana&family=Josefin+Sans:wght@200&family=Julius+Sans+One&family=Lexend:wght@300&family=Libre+Bodoni&family=Limelight&family=Montserrat:wght@100&family=Mr+De+Haviland&family=Pinyon+Script&family=Roboto+Condensed:wght@300&family=Share+Tech+Mono&family=Text+Me+One&family=Urbanist:wght@200;300&family=Vazirmatn&family=Wire+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    text-transform: capitalize;font-family: 'Josefin Sans', sans-serif;
+    background-image: url("img/body-back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;/* From https://css.glass */
+    background: rgba(22, 22, 22, 0.41);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.8px);
+    -webkit-backdrop-filter: blur(6.8px);
+    border: 1px solid rgba(22, 22, 22, 0.3);
+    border-bottom: 2px solid rgb(25, 44, 254);
+    height: 8vh;
+}
+.body-section{
+    display: flex;
+}
+.logo{
+    position: absolute;
+    left: 2px;
+    width: 45vh;
+}
+.form-mainn{
+    z-index: 100;
+    display: flex;
+    position: absolute;
+    right: 1vh;
+    padding: 1vh;
+}
+.search-input-area{
+    background-color: rgba(208, 208, 218, 0.382);
+    width: 40vh;
+    height: 7vh;
+    border: 3px solid rgba(222, 227, 228, 0);
+    padding: 0 10px;
+    outline: none;
+    z-index: 200;
+}
+.search-input-area:hover{
+    color: #fff;
+    z-index: 200;
+}
+.btn{
+    border: none;
+    display: flex;
+    padding: 0.75rem 1.5rem;
+    background-color: #488aec;
+    color: #ffffff;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    align-items: center;
+    user-select: none;
+    gap: 0.75rem;
+    box-shadow: 0 4px 6px -1px #488aec31, 0 2px 4px -1px #488aec17;
+    transition: all .6s ease;
+  }
+  
+  btn:hover {
+    box-shadow: 0 10px 15px -3px #488aec4f, 0 4px 6px -2px #488aec17;
+  }
+  
+.weather-container{
+    display: flow-root;
+    justify-content: space-evenly;
+    height: 84vh;
+    width: 45%;
+    margin-top: 3vh;
+    margin: 2%;
+    position: relative;
+    /* From https://css.glass */
+
+}
+.section2{
+    height: 84vh;
+    width: 50%;
+    height: 84vh;
+    margin-top: 3vh;
+}
+#data{
+    position: relative;
+    border-radius: 3vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    /* From https://css.glass */
+background: rgba(0, 0, 0, 0.086);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.086);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.data-1{
+    width: 100%;
+    height: 50vh;
+}
+.wh{
+    display: flex;
+}
+.data2{
+    position: relative;
+    margin-top: 3vh;
+    width: 49%;
+    height: 30vh;
+}
+
+.data3{
+    position: relative;
+    margin-top: 3vh;
+    width: 49%;
+    height: 30vh;
+    margin-left: 2%;
+}
+.data4{
+    height: 100%;
+}
+.main-details{
+    position: absolute;
+    left: 3%;
+    bottom: 4%;
+    z-index: 8;
+}
+.main{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.main .weat-input{
+    color: #008cf0;
+
+}
+.detail{
+    position: relative;
+    left: 2vh;
+    top: 2%;
+    width: 88%;
+    z-index: 8;
+    overflow-y: hidden;
+    font-size: 3vh;
+    color: #fff;
+}
+#temperature span{
+    color: #fff;
+    font-size: 30vh;
+}
+#temperature{
+    color: #008cf0;
+    font-size: 7vh;
+}
+.title{
+    color: #ffffff;
+    font-size: 5vh;
+}
+.image{
+    position: absolute;
+    z-index: -88;
+}
+
+.main-section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+.second-section{
+    position: absolute;
+    left: 55vh;
+}
+.main-section-logo{
+    width:10vh;
+}
+#wind{
+    font-size: 5vh;
+}
+.section{
+    position: relative;
+    display: flex;
+    font-size: 5vh;
+    margin-top: 2vh;
+    border-bottom: solid 1px blanchedalmond;
+    margin-bottom: 1vh;
+}
+.weat-input{
+    position: absolute;
+    right: 0;
+}
+
+.weat-input2{
+    position: absolute;
+    left: 3vh;
+    font-size: 5.6vh;
+}
+span{
+    color: #87a5f8;
+}
+#nds{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding-left: 42%;
+    width: 100%;
+    background: rgba(19, 28, 28, 0.256);
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+      background-color: rgb(0, 0, 0);
+      background-image: url("img/-sem-steenbergen-2966315.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    #nds{
+        padding-left: 20%;
+        left: 0;
+        bottom: 5%;
+    }
+    .header{
+        display: grid;
+    height: 20vh;
+    }
+    .search-input-area{
+        width: 30vh;
+    }
+    .body-section{
+        display: flow-root;
+    }
+    .weather-container{
+        display: block;
+        width: 95%;
+    }
+    .section2{
+        height: 100%;
+        width: 96%;
+        margin-bottom: 5vh;
+    }
+    .data{
+        width: 98%;
+        top: -30vh;
+    }
+    .image{
+        display: none;
+    }
+    #temperature span{
+        font-size: 13vh;
+    }
+    #temperature{
+        font-size: 4vh;
+    }
+    .title{
+        font-size: 5vh;
+    }
+    .section{
+        font-size: 3vh;
+    }
+    .data2{
+        width: 47%;
+        margin-left: 2%;
+        margin-right: 1%;
+    }
+    .data3{
+        margin-left: 1%;
+        margin-right: 2%;
+        width: 47%;
+    }
+  }

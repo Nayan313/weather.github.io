@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NS Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="website icon" type="png" href="img/main-logo.png">
+</head>
+
+<body>
+    <div class="header">
+        <div><img src="img/HEADER-LOGO.png" class="logo"></div>
+        <div>
+            <form class="form-mainn" role="search">
+                <input id="city" class="search-input-area" type="search" placeholder="search" aria-label="search">
+                <button class="btn" type="submit" id="submit">search</button>
+            </form>
+        </div>
+    </div>
+    <section class="body-section">
+        <section class="weather-container">
+            <div class="data-1" id="data">
+                <div class="main-details">
+                    <h1 id="temperature"><span id="temp"></span>   celcius</h1>
+                    <h1 class="title">city <span id="cityName"></span></h1>
+                </div>
+
+            </div>
+            <div class="wh">
+            <div class="data2" id="data">
+                <div class="main">
+                    <div class="main-section">
+                        <img src="img/New Project (1).png" class="main-section-logo">
+                        <h4 class="weat-input2"><span id="humidity"></span></h4>
+                    
+                    </div>
+
+                </div>
+            </div>
+            <div class="data3" id="data">
+                <div class="main">
+                    <div class="main-section">
+                        <img src="img/New Project (2).png" class="main-section-logo">
+                        <h4 class="weat-input2"><span id="wind_speed"></span></h4>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="section2">
+            <div class="data4" id="data">
+                <div class="detail">
+
+                    <div class="section">
+                        <h4>sunrise</h4>
+                        <h4 class="weat-input"><span id="sunrise"></span></h4>
+                    </div>
+                    <div class="section">
+                        <h4>sunset</h4>
+                        <h4 class="weat-input"><span id="sunset"></span></h4>
+                    </div>
+                    <div class="section">
+                        <h4>cloud pct</h4>
+                        <h4 class="weat-input"><span id="cloud_pct"></span></h4>
+                    </div>
+                    <div class="section">
+                        <h4>feels like</h4>
+                        <h4 class="weat-input"><span id="feels_like"></span></h4>
+                    </div>
+                    <div class="section">
+                        <h4>min temp</h4>
+                        <h4 class="weat-input"><span id="min_temp"></span></h4>
+                    </div>
+                    <div class="section">
+                        <h4>max temp</h4>
+                        <h4 class="weat-input"><span id="max_temp"></span></h4>
+                    </div>
+                    <div class="section">
+                        <h4>wind degrees</h4>
+                        <h4 class="weat-input"><span id="wind_degrees"></span></h4>
+                    </div>
+
+                    
+
+                </div>
+
+            </div>
+            </div>
+        </section>
+    </section>
+    <div id="nds">
+                        <h4 class="nds">created by nayan sukhadiya    <i class="fa-solid fa-heart"></i></h4>
+                    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/ccefff6d75.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
